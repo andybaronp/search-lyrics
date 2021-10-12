@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Search</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <form class="form">
+          <input
+            id="search"
+            type="search"
+            class="search"
+            placeholder="Seahr songs or artist"
+            autocomplete="off"
+          />
+          <input type="submit" value="Search" class="btn" id="submit" />
+        </form>
+      </header>
+
+      <div class="message" id="message"></div>
+      <article class="content" id="content">
+        <div class="contentSearch" id="contentSearch"></div>
+        <div class="contentlyrics" id="contentlyrics"></div>
+      </article>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
