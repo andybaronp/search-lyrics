@@ -1,2 +1,2 @@
 # search-lyrics
-Search lyrics - Vanilal js.
+Search lyrics - Vanilla js.
